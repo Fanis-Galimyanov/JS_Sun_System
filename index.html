@@ -1,0 +1,92 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+  <meta http-equiv="content-type" content="text/html; charset=windows-1251">
+  
+   <link rel="stylesheet" href="style.css">
+   
+  <title>SUN</title>
+  </head>
+  <body>
+ 
+<div class ="left_sidebar">  
+	<FORM NAME="myform"> 
+		<div class ="left_sidebar_panel">
+			<p>Координаты:</p>
+			<p>	x = <INPUT   NAME="x" SIZE="10" VALUE="100"> </p>
+			<p> y = <INPUT   NAME="y" SIZE="10" VALUE="100"> </p>
+			<p>Масса:</p>
+			<p><INPUT   NAME="m" SIZE="10" VALUE="5.9742e+24"> </p>
+			<p>Плотность:</p>
+			<p><INPUT   NAME="p" SIZE="10" VALUE="5.51e+3"> </p>
+			<p>Cкорость по осям координат:</p>
+			<p> Vx = <INPUT   NAME="vx" SIZE="10" VALUE="0"> </p>
+			<p> Vy = <INPUT   NAME="vy" SIZE="10" VALUE="0"> </p>
+			<p><INPUT TYPE="button" NAME="bt1" VALUE="Новый элемент" onClick="btnClick1();"></p>
+			<p>Порядковый номер элемента:</p>
+			<p>№ <INPUT   NAME="number_element" SIZE="5" VALUE="0"> </p>
+			<p>Операции с существующим элементом</p>
+			<p><INPUT TYPE="button" NAME="bt6" VALUE="Вывести" onClick="btnClick6();"></p>
+			<p><INPUT TYPE="button" NAME="bt7" VALUE="Изменить" onClick="btnClick7();"></p>
+			
+			<p>Маштаб: <select name="mash">
+					<option value="1e+4">1e+4</option>
+					<option value="1e+5">1e+5</option>
+					<option value="1e+6">1e+6</option>
+					<option selected value="1e+7">1e+7</option>
+					<option value="1e+8">1e+8</option>
+					<option value="1e+9">1e+9</option>
+					<option value="1e+10">1e+10</option>
+					<option value="1e+11">1e+11</option>
+					<option value="1e+12">1e+12</option>
+				</select></p>
+		</div>
+		
+		<div class ="time">
+		<p>	Время: </p>
+		<p>	Год <INPUT   NAME="year" SIZE="5" VALUE="0"> </p>
+		<p> Месяц <INPUT   NAME="month" SIZE="5" VALUE="0"> </p>
+		<p> День <INPUT   NAME="day" SIZE="10" VALUE="0"> </p>
+		<p> Час <INPUT   NAME="hour" SIZE="10" VALUE="0"> </p>
+		</div>
+		
+		<div class ="left_sidebar_panel_button">
+			<p><INPUT TYPE="button" NAME="bt2" VALUE="Пуск" onClick="btnClick2();"></p>
+			<p><INPUT TYPE="button" NAME="bt3" VALUE="Стоп" onClick="btnClick3();"></p>
+			<p><INPUT TYPE="button" NAME="bt4" VALUE="Сброс" onClick="btnClick4();"></p>
+			<p>Вывод расчетов:</p>
+			<p><INPUT TYPE="button" NAME="bt5" VALUE="Вывод" onClick="btnClick5();"></p>
+		</div>
+		
+   </FORM>
+</div>
+
+<div id ="window_model">
+			<div id="d0"></div> 
+			<div id="d1"></div> 
+			<div id="d2"></div>
+			<div id="d3"></div>
+			<div id="d4"></div>
+			<div id="d5"></div>
+			<div id="d6"></div>
+			<div id="d7"></div>
+			<div id="d8"></div>
+			<div id="d9"></div>
+			<div id="d10"></div>
+			<div id="d11"></div>
+			<div id="d12"></div>
+			<div id="d13"></div>
+			<div id="d14"></div>
+			<div id="d15"></div>
+			<div id="d16"></div>
+			<div id="d17"></div>
+			<div id="d18"></div>
+			<div id="d19"></div>
+			<div id="d20"></div>
+</div>
+
+<script src="move.js"></script>
+
+               
+  </body>
+</html>

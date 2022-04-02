@@ -1,0 +1,199 @@
+/* CSS Document */
+.left_sidebar
+	{
+	width: 150px; /* Ширина слоя */
+	height: 1000px; /* Высота блока */
+	float: left; /* Обтекание по правому краю */
+	}
+	
+.left_sidebar_panel
+	{
+	border: 2px solid black; /* Параметры границы */
+	width: 150px; /* Ширина слоя */
+	height: 500px; /* Высота блока */
+	margin-top: 5px; /* Отступ сверху */
+	}
+
+#window_model
+{
+	position: relative; 
+	border: 1px solid #000; 
+	background: #eee; 
+	height: 750px;
+	width: 1400px; /* Ширина слоя */
+	float: left; /* Обтекание по правому краю */
+	margin-left: 5px; /* Отступ снизу */
+	margin-top: 5px; /* Отступ сверху */
+}
+	
+.left_sidebar_panel p 
+		{
+		margin-top: 5px; /* Отступ сверху */
+		margin-bottom: 2px; /* Отступ снизу */
+		margin-left: 2px; /* Отступ снизу */
+		}
+
+.left_sidebar_panel_button
+	{
+	border: 2px solid black; /* Параметры границы */
+	width: 150px; /* Ширина слоя */
+	height: 150px; /* Высота блока */
+	margin-top: 5px; /* Отступ сверху */
+	}
+
+.left_sidebar_panel_button p
+	{
+	margin-top: 5px; /* Отступ сверху */
+	margin-bottom: 2px; /* Отступ снизу */
+	margin-left: 2px; /* Отступ снизу */
+	}
+	
+.time
+	{
+	border: 2px solid black; /* Параметры границы */
+	width: 150px; /* Ширина слоя */
+	height: 150px; /* Высота блока */
+	margin-top: 5px; /* Отступ сверху */
+	}
+	
+.time p
+	{
+	margin-top: 5px; /* Отступ сверху */
+	margin-bottom: 2px; /* Отступ снизу */
+	margin-left: 2px; /* Отступ снизу */
+	}
+	
+#window_model p
+	{
+	margin-top: 0px; /* Отступ сверху */
+	margin-bottom: 0px; /* Отступ снизу */
+	margin-left: 30px; /* Отступ снизу */
+	}
+#d0 
+{
+  position:absolute;
+  background-color:#000;
+  border-radius: 100%; 
+}
+
+#d1 
+{
+  position:absolute;
+  background-color:#000;
+  border-radius: 100%; 
+}
+#d2
+{
+  position:absolute;
+  background-color:#000;
+  border-radius: 100%; 
+}
+#d3
+{
+  position:absolute;
+  background-color:#000;
+  border-radius: 100%; 
+}
+#d4
+{
+  position:absolute;
+  background-color:#000;
+  border-radius: 100%; 
+}
+#d5
+{
+  position:absolute;
+  background-color:#000;
+  border-radius: 100%; 
+}
+#d6
+{
+  position:absolute;
+  background-color:#000;
+  border-radius: 100%; 
+}
+#d7
+{
+  position:absolute;
+  background-color:#000;
+  border-radius: 100%; 
+}
+#d8
+{
+  position:absolute;
+  background-color:#000;
+  border-radius: 100%; 
+}
+#d9
+{
+  position:absolute;
+  background-color:#000;
+  border-radius: 100%; 
+}
+#d10
+{
+  position:absolute;
+  background-color:#000;
+  border-radius: 100%; 
+}
+#d11
+{
+  position:absolute;
+  background-color:#000;
+  border-radius: 100%; 
+}
+#d12
+{
+  position:absolute;
+  background-color:#000;
+  border-radius: 100%; 
+}
+#d13
+{
+  position:absolute;
+  background-color:#000;
+  border-radius: 100%; 
+}
+#d14
+{
+  position:absolute;
+  background-color:#000;
+  border-radius: 100%; 
+}
+#d15
+{
+  position:absolute;
+  background-color:#000;
+  border-radius: 100%; 
+}
+#d16
+{
+  position:absolute;
+  background-color:#000;
+  border-radius: 100%; 
+}
+#d17
+{
+  position:absolute;
+  background-color:#000;
+  border-radius: 100%; 
+}
+#d18
+{
+  position:absolute;
+  background-color:#000;
+  border-radius: 100%; 
+}
+#d19
+{
+  position:absolute;
+  background-color:#000;
+  border-radius: 100%; 
+}
+#d20
+{
+  position:absolute;
+  background-color:#000;
+  border-radius: 100%; 
+}
+
